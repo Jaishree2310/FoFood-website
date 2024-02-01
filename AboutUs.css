@@ -1,0 +1,86 @@
+.about-us-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff; /* Adjust color to match your design */
+    padding: 50px; /* Adjust padding to match your design */
+  }
+ 
+  .about-image {
+    /* Assuming you want the images side by side with a small gap */
+    margin-right: 20px;
+    /* Adjust width and height or use object-fit as needed for your images */
+  }
+  .about-image {
+    max-width: 50%; /* Adjust this value to make the image smaller */
+    height: auto; /* This will maintain the aspect ratio of the image */
+    margin-right: 20px; /* Maintain some space between images */
+    display: block; /* To ensure max-width is respected */
+  }
+  .about-image {
+    width: 500px; /* Set a specific width */
+    border-radius: 10%;
+
+  }
+    
+  
+  .about-content {
+    max-width: 600px; /* Adjust width as necessary */
+  }
+  
+  .about-content h2 {
+    color: #f30c9a; /* Sample color; adjust as necessary */
+    /* Additional styling for 'About us' */
+    margin: 20px;
+  }
+  
+  .about-content h1 {
+    margin: 20px 0; /* Sample margin; adjust as necessary */
+    margin: 20px;
+  }
+  
+  .about-content p {
+    margin-bottom: 20px; 
+    margin: 20px;
+    justify-content: center;
+
+  }
+  
+  .read-more-button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Adjust border-radius to match your design */
+    background-color: transparent;
+    color: #eb679e; /* Sample color; adjust as necessary */
+    cursor: pointer;
+    border: 2px solid #f30c9a; /* Sample border; adjust as necessary */
+    transition: all 0.3s ease;
+  }
+  
+  .read-more-button:hover {
+    background-color: #e52a7ee7; /* Adjust hover color as necessary */
+    color: #fff; /* Typically white text on a colored background */
+  }
+  .images-container {
+    display: flex;
+    align-items: center; /* This will keep images aligned at their center */
+    justify-content: center; /* Center the images in the container */
+  }
+  
+  .about-image {
+    width: 50%; /* Adjust width as necessary, or use percentages */
+    height: 300px; /* Adjust height as necessary */
+    object-fit: cover; /* This will ensure the images cover the area without losing aspect ratio */
+  }
+  
+  /* Assuming the first image is the chef and the second is the girl */
+  .about-image:first-child {
+    margin-right: 20px; /* Space between the images */
+    transform: translateY(-20px); /* Moves the chef image up */
+  }
+  
+  .about-image:last-child {
+    transform: translateY(20px); /* Moves the girl image down */
+  }
+  

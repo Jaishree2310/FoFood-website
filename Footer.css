@@ -1,0 +1,198 @@
+.footer {
+    color: rgb(255, 253, 253);
+    font-family: Arial, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: url('design.jpg') repeat;
+    
+  }
+
+
+  .newsletter-container {
+    text-align: center;
+    margin-bottom: 30px;
+    display:flex;
+    
+  }
+  
+  .newsletter-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+  }
+  
+  .newsletter-form {
+    display:flex;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    align-items: end;
+    margin-right: 20px;
+    margin-left: 500px;
+    color: #121112;
+  }
+  
+  .subscribe-btn {
+    padding: 15px 40px;
+    border: none;
+    background-color: #ffffff; /* Lighter shade of pink */
+    color: #d63384;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: right;
+    
+  }
+  .subscribe-btn:hover {
+    background-color: #ffbc1f; /* Adjust hover color as necessary */
+    color: #fff; /* Typically white text on a colored background */
+  }
+  
+  
+  .footer-content {
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.75rem;
+  }
+  
+  .social-icon {
+    margin: 0 5px;
+    font-size: 24px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      /* align-items:flex-end; */
+    }
+  
+    .newsletter-form {
+      flex-direction: column;
+
+    }
+  
+    .newsletter-form input[type="email"] {
+      margin-bottom: 10px;
+    }
+  }
+ 
+  .contact-info {
+    flex-basis: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .contact-info p {
+    margin-bottom: 15px; /* Adjust the space between the lines */
+    line-height: 1.5; /* Adjust line height for better readability if needed */
+    margin-top: 15px;
+  }
+  .social-links {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icon {
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-basis: 40%;
+  }
+  
+  .links-group {
+    margin-right: 11rem;
+    
+  }
+  
+  .links-group ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .links-group li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-around;
+
+
+  }
+  
+  .newsletter {
+    flex-basis: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: medium;
+   
+  }
+
+  .footer-divider {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .app-buttons {
+    display: flex;
+    gap: 0.9rem; /* Spacing between buttons */
+    align-items: center; /* Vertically centers the icons inside each button */
+
+ 
+  }
+
+  .footer-app p {
+    margin-bottom: 1rem;
+  }
+  .footer-app-stores {
+    align-self: flex-start; /* Align the app store buttons to the left */
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Spacing between text and buttons */
+    
+    
+  }
+  .btn.app {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+    padding: 15px 40px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    
+  
+    }
+  
+
+  

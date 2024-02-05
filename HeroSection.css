@@ -1,0 +1,120 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    /* align-items:flex-start; */
+    background: #ffe5e2; /* Replace with the actual color or gradient you need */
+    padding: 3rem 5%;
+    /* align-self: flex-start; */
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    text-align: left;
+    
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #f06292; /* Replace with the actual color you need */
+    margin-top: 80px;
+    align-self: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .hero h2 {
+    color: #000000; /* Replace with the actual color you need */
+    margin-bottom: 2rem;
+    margin-top: 20px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    
+  }
+  
+  .btn {
+    padding: 20px 30px;
+    border:none;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 1rem;
+    margin-top: 20px;
+    
+  }
+  
+  .btn.primary {
+    background-color: #f06292; /* Replace with the actual color you need */
+    color: white;
+  }
+  
+  .btn.app {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+    background-color: #f06292;
+
+ 
+
+  }
+  
+  .hero-app p {
+    margin-bottom: 1rem;
+
+  }
+  .hero-app-stores {
+    align-self: flex-start; /* Align the app store buttons to the left */
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Spacing between text and buttons */
+    
+    
+  }
+  
+  .app-buttons {
+    display: flex;
+    gap: 0.9rem; /* Spacing between buttons */
+ 
+  }
+
+
+  .hero-image {
+    max-width: 40%;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content,
+    .hero-image {
+      max-width: 100%;
+      margin-top: 10px;
+    }
+  
+    .hero-buttons {
+      flex-direction: column;
+      margin-top: 20px;
+      
+    }
+  
+    .btn {
+      width: 100%;
+      margin-bottom: 1rem;
+      margin-top: 20px;
+   
+    }
+  }
+  

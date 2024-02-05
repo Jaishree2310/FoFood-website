@@ -1,0 +1,124 @@
+
+.popular {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .popular h1 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+    color: deeppink;
+    font-weight: bold;
+  }
+  .popular h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+  }
+
+  
+  .popular-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .popular-item {
+    width: calc(25% - 1rem); /* Adjust width as necessary, subtracting the gap */
+    margin-bottom: 2rem;
+  }
+  
+  .popular-item img {
+    width: 80%; /* Adjust if you want to control size */
+    height: 15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .popular-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+  }
+  
+  .popular-item p {
+    font-size: 1rem;
+    color: deeppink;
+    font-weight: bold;
+  }
+  /* PopularMenu.css */
+/* ... existing styles ... */
+
+.item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: red; /* Adjust color as needed */
+}
+
+.add-to-cart-button {
+  padding: 8px 16px;
+  background-color: blue; /* Adjust color as needed */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* ... any other styles ... */
+.add-to-cart-button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px; /* Adjust border-radius to match your design */
+  background-color: transparent;
+  color: #eb679e; /* Sample color; adjust as necessary */
+  cursor: pointer;
+  border: 2px solid #f30c9a; /* Sample border; adjust as necessary */
+  transition: all 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #e52a7ee7; /* Adjust hover color as necessary */
+  color: #fff; /* Typically white text on a colored background */
+}
+
+.See-all-menu-button {
+  margin: 20px;
+  margin-bottom: 30px;
+  margin-top: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px; /* Adjust border-radius to match your design */
+  background-color: transparent;
+  color: #eb679e; /* Sample color; adjust as necessary */
+  cursor: pointer;
+  border: 2px solid #f30c9a; /* Sample border; adjust as necessary */
+  transition: all 0.3s ease;
+  font-size: large;
+}
+
+.See-all-menu-button:hover {
+  background-color: #e52a7ee7; /* Adjust hover color as necessary */
+  color: #fff; /* Typically white text on a colored background */
+}
+
+.popular-item {
+  color: #000; /* Default color */
+  text-decoration: none; /* Ensures that there's no underline by default */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.popular-item:hover {
+  color: #e52a7ee7; /* Color changes to red on hover */
+  text-decoration: underline; /* Underline on hover */
+}
